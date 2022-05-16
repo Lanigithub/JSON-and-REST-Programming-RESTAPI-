@@ -59,9 +59,42 @@ console.log(Jason companies)
 ```
 
 #### Backticks`: Adding ' to the ` [square brackets ]` to make it a string.
+#### Then display the string: 
+#### console.log(Jason companies) 
+// Inside HTML script 
+
+#### Using console.log(json.parse (companies) to get It back to the json objects.
+
 #### Backticks are an ES6 feature that allows you to create strings in JavaScript.
 
 #### Although backticks are mostly used for HTML or code embedding purposes, they also act similar to single and double quotes. Besides, using backticks makes it easier for string operations.
+### Template Literals
+Template literals provide an easy and clean way create multi-line strings and perform string interpolation. Now we can embed variables or expressions into a string at any spot without any hassle.
+
+Template literals are created using back-tick (` `) (grave accent) character instead of the usual double or single quotes. Variables or expressions can be placed inside the string using the ${...} syntax. Compare the following examples and see how much useful it is:
+```
+// Simple multi-line string
+let str = `The quick brown fox
+    jumps over the lazy dog.`;
+
+// String with embedded variables and expression
+let a = 10;
+let b = 20;
+let result = `The sum of ${a} and ${b} is ${a+b}.`;
+console.log(result); // The sum of 10 and 20 is 30.
+```
+#### and without the ES6 features:
+```
+// Multi-line string
+var str = 'The quick brown fox\n\t'
+    + 'jumps over the lazy dog.';
+
+// Creating string using variables and expression
+var a = 10;
+var b = 20;
+var result = 'The sum of ' + a + ' and ' + b + ' is ' + (a+b) + '.';
+console.log(result); // The sum of 10 and 20 is 30.
+```
 
 
 #### Then display the string: 
@@ -70,6 +103,8 @@ console.log(Jason companies)
 
 #### Using console.log(json.parse (companies) to get It back to the json objects.
 
+References: 
+(https://www.tutorialrepublic.com/javascript-tutorial/javascript-es6-features.php#:~:text=ES6%20brought%20significant%20changes%20to,programming%20easier%20and%20more%20fun. )
 (https://youtu.be/iiADhChRriM)
 ***
 ## REST programing and REST API:
