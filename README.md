@@ -1,18 +1,18 @@
 ## JSON and REST Programming (REST API)
+***
+### JSON(JavaScript Object Notation):
+* ####  Data representation format
+* #### Commonly used for APIs and configs
+* #### Light weight and easy to read/write
+* #### Integrates easily with most languages 
 
-JSON(JavaScript Object Notation):
-​* Data representation format
-​* Commonly used for APIs and configs
-​*Light weight and easy to read/write
-​* Integrates easily with most languages 
+### JSON Types:
+* #### Numbers: 8, 2.5, -3, 1.5e18
+* #### Strings: " Hello World", "Name", "ID", "123"
+* #### Booleans: true false
+* ####  Array: [ " Hello", "World", "123"], [-8,3,10]
+* #### Objects: {"key": "value"}{"Name": "Larry"}{"ID": 12345}
 
-​JSON Types:
-​* Numbers: 8, 2.5, -3, 1.5e18
-​*Strings: " Hello World", "Name", "ID", "123"
-​*Booleans: true false
-​* Array: [ " Hello", "World", "123"], [-8,3,10]
-​Objects: {"key": "value"}{"Name": "Larry"}{"ID": 12345}
-​
 ​Writing JSON( file.json)---objects in the key: value pairs (inside the curry brackets:
 Example 1: user.json
 {"name": " Donny Jackson",
@@ -57,7 +57,7 @@ Backticks are an ES6 feature that allows you to create strings in JavaScript.
 
 Although backticks are mostly used for HTML or code embedding purposes, they also act similar to single and double quotes. Besides, using backticks makes it easier for string operations.
 
-​
+
 then display the objects: 
 console.log(Jason companies) 
 // Inside HTML script 
