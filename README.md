@@ -63,7 +63,7 @@ console.log(Jason companies)
 #### Although backticks are mostly used for HTML or code embedding purposes, they also act similar to single and double quotes. Besides, using backticks makes it easier for string operations.
 
 
-#### Then display the objects: 
+#### Then display the string: 
 #### console.log(Jason companies) 
 // Inside HTML script 
 
