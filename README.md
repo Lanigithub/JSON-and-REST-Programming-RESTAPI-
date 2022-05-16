@@ -49,7 +49,7 @@
 "ceo": null
 "rating" : 4.2
 }
-}
+
 Inside HTML 
 <script type="text/javasscript">
 let companies= `[ copy the json objects codes from visual studio]
