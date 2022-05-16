@@ -31,7 +31,7 @@
 "isCollegeGraduate": false,
 "friends" : [ {}]
 ]
-}
+
 ```
 ### Write JSON on visual studio---write objects inside the square brackets that's easy to copy and paste to the html scripts
 ** _Remember JSON is the JavaScript Object Notation._**
