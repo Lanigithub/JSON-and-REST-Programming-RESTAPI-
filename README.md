@@ -13,8 +13,9 @@
 * ####  Array: [ " Hello", "World", "123"], [-8,3,10]
 * #### Objects: {"key": "value"}{"Name": "Larry"}{"ID": 12345}
 
-​Writing JSON( file.json)---objects in the key: value pairs (inside the curry brackets:
-Example 1: user.json
+### Writing JSON( file.json)---objects in the key: value pairs (inside the curry brackets:
+#### Example 1: user.json
+```
 {"name": " Donny Jackson",
 " age" : " 25" ,
 "gender" : "male",
@@ -30,7 +31,7 @@ Example 1: user.json
 "friends" : [ {}]
 ]
 }
-
+```
 Write JSON on visual studio---write objects inside the square brackets that's easy to copy and paste to the html scripts
 Remember JSON is the JavaScript Object Notation.
 Example: companies.json: with tow objects
