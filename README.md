@@ -57,7 +57,7 @@ console.log(Jason companies)
 </>script
 ```
 
-#### ** Backticks` **: Adding ' to the ` [square brackets ]` to make it a string.
+#### ** Backticks`**: Adding ' to the ` [square brackets ]` to make it a string.
 #### Backticks are an ES6 feature that allows you to create strings in JavaScript.
 
 #### Although backticks are mostly used for HTML or code embedding purposes, they also act similar to single and double quotes. Besides, using backticks makes it easier for string operations.
