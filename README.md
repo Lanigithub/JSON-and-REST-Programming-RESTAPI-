@@ -32,9 +32,10 @@
 ]
 }
 ```
-Write JSON on visual studio---write objects inside the square brackets that's easy to copy and paste to the html scripts
-Remember JSON is the JavaScript Object Notation.
-Example: companies.json: with tow objects
+### Write JSON on visual studio---write objects inside the square brackets that's easy to copy and paste to the html scripts
+** _Remember JSON is the JavaScript Object Notation._**
+#### Example 2: companies.json: with two objects
+```
 [ {"name":"Big Solar ",
 "type": "big corporation",
 " numberOfEmployees": "1800",
@@ -52,8 +53,9 @@ Inside HTML <script type="text/javasscript">
 let companies= [ copy the json objects codes from visual studio]
 ]
 </>script
+```
 
-Backtocks`: Adding ' to the ` [square brackets ]` to make it a string.
+#### **Backtocks`**: Adding ' to the ` [square brackets ]` to make it a string.
 Backticks are an ES6 feature that allows you to create strings in JavaScript.
 
 Although backticks are mostly used for HTML or code embedding purposes, they also act similar to single and double quotes. Besides, using backticks makes it easier for string operations.
