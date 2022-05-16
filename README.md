@@ -49,22 +49,24 @@
 "rating" : 4.2
 }
 }
-Inside HTML <script type="text/javasscript">
-let companies= [ copy the json objects codes from visual studio]
-]
+Inside HTML 
+<script type="text/javasscript">
+let companies= `[ copy the json objects codes from visual studio]
+]`
+console.log(Jason companies) 
 </>script
 ```
 
-#### **Backtocks`**: Adding ' to the ` [square brackets ]` to make it a string.
-Backticks are an ES6 feature that allows you to create strings in JavaScript.
+#### **Backticks`**: Adding ' to the ` [square brackets ]` to make it a string.
+#### Backticks are an ES6 feature that allows you to create strings in JavaScript.
 
-Although backticks are mostly used for HTML or code embedding purposes, they also act similar to single and double quotes. Besides, using backticks makes it easier for string operations.
+#### Although backticks are mostly used for HTML or code embedding purposes, they also act similar to single and double quotes. Besides, using backticks makes it easier for string operations.
 
 
-then display the objects: 
-console.log(Jason companies) 
+#### Then display the objects: 
+#### console.log(Jason companies) 
 // Inside HTML script 
 
-Using console.log(json.parse (companies) to get It back to the json objects.
+#### Using console.log(json.parse (companies) to get It back to the json objects.
 
 (https://youtu.be/iiADhChRriM)
