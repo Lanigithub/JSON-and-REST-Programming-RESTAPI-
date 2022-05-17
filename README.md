@@ -123,17 +123,18 @@ References:
 * #### PUT: Implemeted for updating an existing resource and creating a new resource. ( similar to upsert in DML)
 
 ### Richardson Maturity Model:
-#### It is used to ranck API based on the checks corrlated to REST. The more restful your API isis for development and deployment  the more your API  fullfills the chechks and constraints; 
-There are 4 levels or 4 stages in this Model:
-Level 0:
-Level 1:
-Level 2:
-Level 3: 
+#### It is used to ranck API based on the checks correlated to REST. The more your API  fullfills the chechks and constraints the more restful your API is for development and deployment.  
+#### There are 4 levels or 4 stages in this Model:
+*#### Level 0:
+*#### Level 1:
+*#### Level 2:
+*#### Level 3: 
 
 ### Examples of SOAP vs REST APIs:
+```
 
 
-
+```
 
 *** 
 
