@@ -101,6 +101,43 @@ console.log(result); // The sum of 15 and 80 is 95.
 References: 
 (https://www.tutorialrepublic.com/javascript-tutorial/javascript-es6-features.php#:~:text=ES6%20brought%20significant%20changes%20to,programming%20easier%20and%20more%20fun. )
 (https://youtu.be/iiADhChRriM)
+
 ***
 ## REST programing and REST API:
+
+### What is REST and REST APT?
+* #### **_Representational state transfer (REST)_**  is a software architectural style that was created to guide the design and development of the architecture for the World Wide Web. REST defines guiding principles for creating  lightweighted(simple and straightforward),  stateless, reliable web APIs.
+* #### REST API( Application programming interface: a connection between computers or between computer programs. It is a type of software interface, offering a service to other pieces of software) : an API implemented with the REST guidelines is called RESTFUL ( REST) API. 
+* #### A REST API is a medium for two computers to communicate over HTTP (Hypertext Transfer Protocol), in the same way clients and servers communicate.
+( RESTis an architectural style created by Roy Fielding in 2000 )
+
+### Advantages of using REST API:
+* #### In Web Development, REST APIs play an important role in ensuring smooth communication between the client(frontend) and the server (backend)
+* #### REST API is lighter and faster( mostly use Json style payload), flexible ( access a list of itmes using URI/item,  and can be integrated to different security methods), cashable ( mark data as cashable and support for cashing). On the other hand, SOAP ( SIMPLE OBJECT ACCESS PROTOCOL) is a protocol that has more security than REST but less flexible. 
+* #### For security: REST API uses HTTPS(Hypertext Transfer Protocol Secure ) and SSL ( Secure Socket Layer)/ TLS ( Transport layer security for encryption and data strems. Using hashed(scrambled representaion) and salted(unique strings) password to shield RESTFUL services.    Also we could integrate different security methods to REST APIs like tokens, authentication and API gateways. 
+
+### REST API methods: (VERBS from HTTP):
+* #### GET: offering read-only access for the resources;
+* #### POST: implemeted for creating a new resource;
+* #### DELETE: implemented for removing a resource;
+* #### PUT: Implemeted for updating an existing resource and creating a new resource. ( similar to upsert in DML)
+
+### Richardson Maturity Model:
+#### It is used to ranck API based on the checks corrlated to REST. The more restful your API isis for development and deployment  the more your API  fullfills the chechks and constraints; 
+There are 4 levels or 4 stages in this Model:
+Level 0:
+Level 1:
+Level 2:
+Level 3: 
+
+### Examples of SOAP vs REST APIs:
+
+
+
+
+*** 
+
+
+
+
 
