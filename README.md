@@ -136,11 +136,11 @@ References:
 ####  https://github.com/posts  instead of  https://github.com/getPosts or https://mysite.com/createPost
 because you should let the HTTP verbs handle what the endpoints do. So GET would retrieve data, POST will create data, PUT will update data, and DELETE will get rid of the data.
 
-*#### Name Collections with Plural Nouns
+* ####  Name Collections with Plural Nouns
 https://www.nba.com/stats/players/  instead of  https://www.nba.com/stat/player/
 and players is the subset of stats
-*#### Use SSL for Security 
-*#### Use Status Codes in Error Handling: 
+* ####  Use SSL for Security 
+* ####  Use Status Codes in Error Handling: 
 ```
 STATUS CODE RANGE	MEANING
 100 – 199	         Informational Responses.
