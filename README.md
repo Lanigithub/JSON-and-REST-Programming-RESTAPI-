@@ -125,10 +125,10 @@ References:
 ### Richardson Maturity Model:
 #### It is used to ranck API based on the checks correlated to REST. The more your API  fullfills the chechks and constraints the more restful your API is for development and deployment.  
 #### There are 4 levels or 4 stages in this Model:
-*#### Level 0:
-*#### Level 1:
-*#### Level 2:
-*#### Level 3: 
+* #### Level 0:
+* #### Level 1:
+* #### Level 2:
+* #### Level 3: 
 
 ### Examples of SOAP vs REST APIs:
 ```
