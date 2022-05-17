@@ -114,7 +114,7 @@ References:
 ### Advantages of using REST API:
 * #### In Web Development, REST APIs play an important role in ensuring smooth communication between the client(frontend) and the server (backend)
 * #### REST API is lighter and faster( mostly use Json style payload), flexible ( access a list of itmes using URI/item,  and can be integrated to different security methods), cashable ( mark data as cashable and support for cashing). On the other hand, SOAP ( SIMPLE OBJECT ACCESS PROTOCOL) is a protocol that has more security than REST but less flexibility. 
-* #### For security: REST API uses HTTPS(Hypertext Transfer Protocol Secure ) and SSL ( Secure Socket Layer)/ TLS ( Transport layer security for encryption and data strems. Using hashed(scrambled representaion) and salted(unique strings) password to shield RESTFUL services.    Also we could integrate different security methods to REST APIs like tokens, authentication and API gateways. 
+* #### For security: REST API uses HTTPS(Hypertext Transfer Protocol Secure ) and SSL ( Secure Socket Layer)/ TLS ( Transport layer security for encryption and data streams. Using hashed(scrambled representaion) and salted(unique strings) password to shield RESTFUL services.    Also we could integrate different security methods to REST APIs like tokens, authentication and API gateways. 
 
 ### REST API methods: (VERBS from HTTP):
 * #### GET: offering read-only access for the resources;
@@ -123,12 +123,36 @@ References:
 * #### PUT: Implemeted for updating an existing resource and creating a new resource. ( similar to upsert in DML)
 
 ### Richardson Maturity Model:
-#### It is used to ranck API based on the checks correlated to REST. The more your API  fullfills the chechks and constraints the more restful your API is for development and deployment.  
+#### It is used to rank API based on the checks correlated to REST. The more your API  fullfills the chechks and constraints the more restful your API is for development and deployment.  
 #### There are 4 levels or 4 stages in this Model:
 * #### Level 0:
 * #### Level 1:
 * #### Level 2:
 * #### Level 3: 
+
+### Best Practices on Writing REST APIs:
+
+*#### Use Nouns Instead of Verbs in Endpoints:
+####  https://github.com/posts  instead of  https://github.com/getPosts or https://mysite.com/createPost
+because you should let the HTTP verbs handle what the endpoints do. So GET would retrieve data, POST will create data, PUT will update data, and DELETE will get rid of the data.
+
+*#### Name Collections with Plural Nouns
+https://www.nba.com/stats/players/  instead of  https://www.nba.com/stat/player/
+and players is the subset of stats
+*#### Use SSL for Security 
+*#### Use Status Codes in Error Handling: 
+```
+STATUS CODE RANGE	MEANING
+100 – 199	         Informational Responses.
+                    For example, 102 indicates the resource is being processed
+300 – 399	         Redirects
+                    For example, 301 means Moved permanently
+400 – 499	         Client-side errors
+                     400 means bad request and 404 means resource not found
+500 – 599	          Server-side errors
+                     For example, 500 means an internal server error
+```
+
 
 ### Examples of SOAP vs REST APIs:
 ```
