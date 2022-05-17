@@ -132,7 +132,7 @@ References:
 
 ### Best Practices on Writing REST APIs:
 
-*#### Use Nouns Instead of Verbs in Endpoints:
+* #### Use Nouns Instead of Verbs in Endpoints:
 ####  https://github.com/posts  instead of  https://github.com/getPosts or https://mysite.com/createPost
 because you should let the HTTP verbs handle what the endpoints do. So GET would retrieve data, POST will create data, PUT will update data, and DELETE will get rid of the data.
 
