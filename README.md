@@ -163,6 +163,10 @@ STATUS CODE RANGE	MEANING
 *** 
 
 
-
+References:
+(https://en.wikipedia.org/wiki/API)
+(https://www.ibm.com/cloud/learn/rest-apis)
+(https://www.freecodecamp.org/news/rest-api-best-practices-rest-endpoint-design-examples/)
+(https://stackify.com/web-api-error-handling/)
 
 
