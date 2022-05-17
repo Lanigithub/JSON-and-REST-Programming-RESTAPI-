@@ -113,7 +113,7 @@ References:
 
 ### Advantages of using REST API:
 * #### In Web Development, REST APIs play an important role in ensuring smooth communication between the client(frontend) and the server (backend)
-* #### REST API is lighter and faster( mostly use Json style payload), flexible ( access a list of itmes using URI/item,  and can be integrated to different security methods), cashable ( mark data as cashable and support for cashing). On the other hand, SOAP ( SIMPLE OBJECT ACCESS PROTOCOL) is a protocol that has more security than REST but less flexible. 
+* #### REST API is lighter and faster( mostly use Json style payload), flexible ( access a list of itmes using URI/item,  and can be integrated to different security methods), cashable ( mark data as cashable and support for cashing). On the other hand, SOAP ( SIMPLE OBJECT ACCESS PROTOCOL) is a protocol that has more security than REST but less flexibility. 
 * #### For security: REST API uses HTTPS(Hypertext Transfer Protocol Secure ) and SSL ( Secure Socket Layer)/ TLS ( Transport layer security for encryption and data strems. Using hashed(scrambled representaion) and salted(unique strings) password to shield RESTFUL services.    Also we could integrate different security methods to REST APIs like tokens, authentication and API gateways. 
 
 ### REST API methods: (VERBS from HTTP):
