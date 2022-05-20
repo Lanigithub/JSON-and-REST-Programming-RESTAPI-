@@ -112,7 +112,7 @@ y = json.loads(s)
 # the result is a Python dictionary:
 print(y["age"])   // return value responding to the key age: 30
 ```
-*###  Convert from Python to JSON
+* ###  Convert from Python to JSON
 * #### If you have a Python object, you can convert it into a JSON string by using the json.dumps() method.
 ```
 import json
