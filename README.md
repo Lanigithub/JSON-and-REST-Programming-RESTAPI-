@@ -6,6 +6,8 @@
 * #### Commonly used for APIs and configs
 * #### Light weight and easy to read/write
 * #### Integrates easily with most languages 
+* #### JSON is a syntax for storing and exchanging data.
+* #### JSON is text, written with JavaScript object notation.
 
 ### JSON Types:
 * #### Numbers: 8, 2.5, -3, 1.5e18
@@ -94,8 +96,41 @@ var n1 = 15;
 var n2 = 80;
 var result = 'The sum of ' + n1 + ' and ' + n2 + ' is ' + (n1+n2) + '.';
 console.log(result); // The sum of 15 and 80 is 95.
-```
 
+```
+* ### Parse JSON - Convert from JSON to Python
+* #### If you have a JSON string, you can parse it by using the json.loads() method.
+```
+import json
+
+# JSON  String:
+s =  '{ "name":"John", "age":30, "city":"New York"}'
+
+# parse x:
+y = json.loads(s)
+
+# the result is a Python dictionary:
+print(y["age"])   // return value responding to the key age: 30
+```
+*###  Convert from Python to JSON
+* #### If you have a Python object, you can convert it into a JSON string by using the json.dumps() method.
+```
+import json
+
+# a Python object (dict):
+dict = {
+  "name": "John",
+  "age": 30,
+  "city": "New York"
+}
+
+# convert into JSON:
+y = json.dumps(dict)
+
+# the result is a JSON string: 
+print(y)
+// output: string: s =  '{ "name":"John", "age":30, "city":"New York"}'
+```
 
 
 References: 
