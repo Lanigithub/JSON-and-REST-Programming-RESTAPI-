@@ -222,6 +222,21 @@ https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_res
 #### A REST request consists of four components: **__a resource URI, an HTTP method, request headers, and a request body.__** Request headers specify metadata for the request. The request body specifies data for the request, when necessary. If there’s no data to specify, the body is omitted from the request.
 
 *** 
+
+## Use Bulk API 2.0
+https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_bulk
+#### Learning Objectives
+##### After completing this unit, you’ll be able to:
+* #### Describe how an asynchronous request differs from a synchronous request.
+* #### Create a bulk job using the Postman web app.
+* #### Import data to your Salesforce org by adding data to a job.
+* #### Monitor a job’s progress.
+* #### Get a job’s results.
+#### Bulk API and Asynchronous Requests
+#### Bulk API is based on REST principles and is optimized for working with large sets of data. You can use it to insert, update, upsert, or delete many records asynchronously, meaning that you submit a request and come back for the results later. Salesforce processes the request in the background.
+
+
+*** 
 References:
 (https://en.wikipedia.org/wiki/API)
 (https://www.ibm.com/cloud/learn/rest-apis)
